@@ -32,7 +32,7 @@ function getRoute() {
 
 // Exibe uma página:
 function getPage(page) {
-
+    <!-- Rodapé -->
     // Carrega o CSS da página no <head> do codumento:
     $('#pageCSS').attr('href', `/pages/${page}/style.css`);
 
